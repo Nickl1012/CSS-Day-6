@@ -21,6 +21,13 @@ nav {
 .navli {
     display: inline-block;
     padding: 50px;
+    transition-property: font-size;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.25s;
+}
+
+.navli:hover {
+    font-size: x-large;
 }
 
 button {
