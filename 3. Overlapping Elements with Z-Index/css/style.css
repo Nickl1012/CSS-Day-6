@@ -1,0 +1,17 @@
+.one {
+    border: 5px darkblue groove;
+    background-color: brown;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 1;
+}
+
+.two {
+    border: 5px lightblue ridge;
+    background-color: violet;
+    position: absolute;
+    top: 120px;
+    left: 120px;
+    z-index: 2;
+}

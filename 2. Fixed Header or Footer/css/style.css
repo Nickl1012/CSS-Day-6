@@ -1,0 +1,13 @@
+nav {
+    position: fixed;
+    background-color: rgb(0, 216, 0);
+    border: 2px green ridge;
+}
+
+main {
+    text-align: center;
+}
+
+.idk {
+    display: inline-block;
+}

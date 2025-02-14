@@ -1,0 +1,43 @@
+main {
+    text-align: center;
+}
+header {
+    text-align: center;
+    border: 5px coral double;
+    background-color: silver;
+    height: 215px;
+}
+
+nav {
+    display: inline-block;
+}
+
+.navhead {
+    position: relative;
+    top: 50px;
+    left: 15px;
+}
+
+.navli {
+    display: inline-block;
+    padding: 50px;
+}
+
+button {
+    box-sizing: border-box;
+    background: linear-gradient(80deg, rgba(255,0,228,1) 0%, rgba(255,0,0,1) 97%);
+    border: 2px rgb(179, 0, 0) groove;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    padding: 5px 15px 5px 15px;
+    z-index: 100;
+    transition-property: color, padding;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+}
+
+button:hover {
+    padding: 10px 30px 10px 30px;
+    color: white;
+}
